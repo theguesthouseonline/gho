@@ -40,7 +40,7 @@ body > div.container > div > form > p:nth-child(3) > label {color: #f2c300;}
 body > div.container > div > form > p:nth-child(1) > label > input[type="text"] {border-color: #ef2275; background-color: transparent; width: 20rem; color: #f2c300;}
 body > div.container > div > form > p:nth-child(2) > label > input[type="email"] {border-color: #ef2275; background-color: transparent; width: 20rem; color: #f2c300;}
 body > div.container > div > form > p:nth-child(3) > label > textarea {border-color: #ef2275; background-color: transparent; width: 20rem; color: #f2c300;}
-::placeholder {color: #f2c300; opacity: .4;}
+::placeholder {color: black; opacity: .4;}
 body > div.container > div > form > p:nth-child(4) > button {border-color: #ef2275; background-color: transparent; color: #f2c300;}
 /*Media Queries*/
 @media only screen and (max-width: 600px) {}

@@ -1,0 +1,50 @@
+/*
+Theme Name: The Guest House
+Author: THE GUEST
+*/
+
+/*WHOLE SITE*/
+body {margin: 0px; font-family: 'Lato'; background-color: #071122; overflow: visible;}
+body.showcase {margin: 0px; font-family: 'Lato'; background-color: #071122; overflow: visible;}
+.btn {border: 2px solid #f2c300; color: #071122 !important; background-color: #f2c300;}
+/*HOME HERO IMAGE*/
+.inner{position: relative;}
+#home-header-img {padding-left: 2rem;}
+/*NAVBAR*/
+* {box-sizing: border-box;}
+.nav {height: 50px; width: 100%; background-color: #071122; position: relative; padding-left: 3rem; padding-top: 1rem;}
+.nav > .nav-header {display: inline;}
+.nav > .nav-header > .nav-title {display: inline-block; font-size: 12px; color: #fff; padding: 13px 10px 13px 10px; color: #f2c300;}
+.nav > .nav-btn {display: none;}
+.nav > .nav-links {display: inline; float: right; font-size: 12px;}
+.nav > .nav-links > a {display: inline-block; padding: 13px 10px 13px 10px; text-decoration: none; color: #ef2275;}
+.nav > .nav-links > a:hover {background-color: #071122; text-decoration: line-through; text-decoration-color: #f2c300;}
+/*.nav > .nav-links > a:active {background-color: #071122; text-decoration: line-through; text-decoration-color: #f2c300;}*/
+.nav > #nav-check {display: none;}
+@media (max-width:600px) {.nav > .nav-btn {display: inline-block; position: absolute; right: 0px; top: 0px;}
+.nav > .nav-btn > label {display: inline-block; width: 50px; height: 50px; padding: 13px;}
+.nav > .nav-btn > label:hover,.nav  #nav-check:checked ~ .nav-btn > label {background-color: #071122;}
+.nav > .nav-btn > label > span {display: block; width: 25px; height: 10px; border-top: 2px solid #eee;}
+.nav > .nav-links {position: absolute; display: block; width: 100%; background-color: #071122; height: 0px; transition: all 0.3s ease-in;  overflow-y: hidden; top: 50px; left: 0px;}
+.nav > .nav-links > a {display: block; width: 100%;}
+.nav > #nav-check:not(:checked) ~ .nav-links {height: 0px;}
+.nav > #nav-check:checked ~ .nav-links {height: calc(100vh - 50px); overflow-y: auto;}}
+/*SHOWCASE*/
+.scheader {font-family: 'Metal Blackletter'; color: #f2c300; letter-spacing: 1px;}
+.img-thumbnail {box-sizing: content-box; background-color: transparent; border: 0;}
+/*MAILBOX*/
+.contact-form{padding: 5rem;}
+body > div.container > div > form > p:nth-child(1) > label {color: #f2c300;}
+body > div.container > div > form > p:nth-child(2) > label {color: #f2c300;}
+body > div.container > div > form > p:nth-child(3) > label {color: #f2c300;}
+body > div.container > div > form > p:nth-child(1) > label > input[type="text"] {border-color: #ef2275; background-color: transparent; width: 20rem; color: #f2c300;}
+body > div.container > div > form > p:nth-child(2) > label > input[type="email"] {border-color: #ef2275; background-color: transparent; width: 20rem; color: #f2c300;}
+body > div.container > div > form > p:nth-child(3) > label > textarea {border-color: #ef2275; background-color: transparent; width: 20rem; color: #f2c300;}
+::placeholder {color: #f2c300; opacity: .4;}
+body > div.container > div > form > p:nth-child(4) > button {border-color: #ef2275; background-color: transparent; color: #f2c300;}
+/*Media Queries*/
+@media only screen and (max-width: 600px) {}
+@media only screen and (min-width: 600px) {}
+/*@media only screen and (min-width: 768px) {}*/
+@media only screen and (min-width: 992px) {}
+@media only screen and (min-width: 1200px) {}

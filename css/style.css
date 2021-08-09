@@ -10,6 +10,7 @@ body.showcase {margin: 0px; font-family: 'Lato'; background-color: #071122; over
 /*HOME HERO IMAGE*/
 .homecontainer {padding-top: 2rem;}
 .homecopycontainer {padding-top: 5rem;}
+h1 {color: #f2c300;}
 /*NAVBAR*/
 * {box-sizing: border-box;}
 .nav {height: 50px; width: 100%; background-color: #071122; position: relative; padding-left: 3rem; padding-top: 1rem;}

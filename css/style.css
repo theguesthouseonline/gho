@@ -47,6 +47,8 @@ body > div.container > div > form > p:nth-child(2) > label > input[type="email"]
 body > div.container > div > form > p:nth-child(3) > label > textarea {border-color: #ef2275; background-color: transparent; width: 20rem; color: #f2c300;}
 ::placeholder {color: black; opacity: .4;}
 body > div.container > div > form > p:nth-child(4) > button {border-color: #ef2275; background-color: transparent; color: #f2c300;}
+/*Footer*/
+body > div:nth-child(4) > footer > div {align-content: center;}
 /*Media Queries*/
 @media only screen and (max-width: 600px) {}
 @media only screen and (min-width: 600px) {}

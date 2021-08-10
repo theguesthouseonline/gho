@@ -8,7 +8,7 @@ body.showcase {margin: 0px; font-family: 'Lato'; background-color: #071122; over
 .btn {border: 2px solid #f2c300; color: #071122 !important; background-color: #f2c300;}
 /*HOME HERO IMAGE*/
 .homecontainer {padding-top: 2rem;}
-.homecopycontainer {padding-top: 5rem;}
+.homecopycontainer {padding-top: 3.5rem; padding-bottom: 3.5rem;}
 p {color: #f2c300;}
 h1 {color: #ef2275;}
 body > div.container.homecopycontainer > p > a {color: #ef2275; text-decoration: none;}

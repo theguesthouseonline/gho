@@ -2,7 +2,10 @@
 Theme Name: The Guest House
 Author: THE GUEST
 */
-
+@ @font-face {
+  font-family: Metal Blackletter;
+  src: url(MetalBlackletter_v4.ttf);
+}
 /*WHOLE SITE*/
 body {margin: 0px; font-family: 'Lato'; background-color: #071122; overflow: visible;}
 body.showcase {margin: 0px; font-family: 'Lato'; background-color: #071122; overflow: visible;}

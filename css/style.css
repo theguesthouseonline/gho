@@ -13,7 +13,7 @@ p {color: #f2c300;}
 h1 {color: #ef2275;}
 body > div.container.homecopycontainer > p > a {color: #ef2275; text-decoration: none;}
 body > div.container.homecopycontainer > p > a:hover {text-decoration: line-through; text-decoration-color: #f2c300;}
-.block {display: block; width: 100%; border: 2px solid #f2c300; background-color: #071122; padding: 8px 28px; font-size: 16px; cursor: pointer; text-align: center;}
+.block {display: block; width: 100%; border: 2px solid #f2c300; background-color: #071122; padding: 8px 28px; font-size: 16px; cursor: pointer; text-align: center; color: #f2c300;}
 /*NAVBAR*/
 * {box-sizing: border-box;}
 .nav {height: 50px; width: 100%; background-color: #071122; position: relative; padding-left: 3rem; padding-top: 1rem;}

@@ -37,7 +37,7 @@ body > div.container.homecopycontainer > button:hover {background-color: #ef2275
 .nav > #nav-check:not(:checked) ~ .nav-links {height: 0px;}
 .nav > #nav-check:checked ~ .nav-links {height: calc(100vh - 50px); overflow-y: auto;}}
 /*SHOWCASE*/
-.scheader {font-family: 'metalblackletter_v4'; color: #f2c300; letter-spacing: 1px;}
+.scheader {font-family: 'metalblackletter_v4',sans-serif; color: #f2c300; letter-spacing: 1px;}
 .img-thumbnail {box-sizing: content-box; background-color: transparent; border: 0;}
 /*MAILBOX*/
 .contact-form{padding: 5rem;}

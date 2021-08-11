@@ -50,7 +50,7 @@ body > div.container > div > form > p:nth-child(3) > label > textarea {border-co
 ::placeholder {color: black; opacity: .4;}
 body > div.container > div > form > p:nth-child(4) > button {border-color: #ef2275; background-color: transparent; color: #f2c300;}
 /*Footer*/
-body > div:nth-child(4) > footer > div {display: table; text-align: center; margin-left: auto; margin-right: auto; padding-bottom: 1rem;}
+body > div:nth-child(4) > footer > div {display: table; font-size: 1rem; text-align: center; margin-left: auto; margin-right: auto; padding-bottom: 1rem;}
 body > div:nth-child(4) > footer > div > p:nth-child(2) > a {color: #ef2275;}
 body > div:nth-child(4) > footer > div > p:nth-child(3) > a {color: #ef2275;}
 body > div:nth-child(4) > footer > div > p:nth-child(4) > a {color: #ef2275;}

@@ -35,7 +35,7 @@ body > div.container.homecopycontainer > button:hover {background-color: #ef2275
 .nav > .nav-links {position: absolute; display: block; width: 100%; background-color: #071122; height: 0px; transition: all 0.3s ease-in;  overflow-y: hidden; top: 50px; left: 0px;}
 .nav > .nav-links > a {display: block; width: 100%;}
 .nav > #nav-check:not(:checked) ~ .nav-links {height: 0px;}
-.nav > #nav-check:checked ~ .nav-links {height: calc(100vh - 50px); overflow-y: auto;}}
+.nav > #nav-check:checked ~ .nav-links {height: calc(100vh - 50px); overflow-y: auto;}
 /*SHOWCASE*/
 .scheader {font-family: 'metalblackletter_v4',sans-serif; color: #f2c300; letter-spacing: 1px;}
 .img-thumbnail {box-sizing: content-box; background-color: transparent; border: 0;}

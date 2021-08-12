@@ -16,7 +16,8 @@ h1 {color: #ef2275;}
 body > div.container.homecopycontainer > p > a {color: #ef2275; text-decoration: none;}
 body > div.container.homecopycontainer > p > a:hover {text-decoration: line-through; text-decoration-color: #f2c300;}
 .block {display: block; width: 100%; border: 2px solid #f2c300; background-color: #071122; padding: 8px 28px; font-size: 16px; cursor: pointer; text-align: center; color: #f2c300;}
-body > div.container.homecopycontainer > button:hover {background-color: #ef2275; border-color: #ef2275; color: #071122;}
+/* body > div.container.homecopycontainer > button:hover {background-color: #ef2275; border-color: #ef2275; color: #071122;} */
+body > div.container.homecopycontainer > a:hover {background-color: #ef2275; border-color: #ef2275; color: #071122;}
 #contentbyyou {max-width: 100%;}
 /*NAVBAR*/
 * {box-sizing: border-box;}

@@ -57,12 +57,6 @@ body > div.container > div > form > p:nth-child(3) > label > textarea {border-co
 body > div.container > div > form > p:nth-child(4) > button {border-color: #ef2275; background-color: transparent; color: #f2c300;}
 
 /* Footer */
-body > div:nth-child(4) > footer > p:nth-child(2) {text-decoration: none;}
-body > div:nth-child(4) > footer > p:nth-child(3) {text-decoration: none;}
-body > div:nth-child(4) > footer > p:nth-child(4) {text-decoration: none;}
-body > div:nth-child(4) > footer > p:nth-child(2) > a:hover {text-decoration: none;}
-body > div:nth-child(4) > footer > p:nth-child(3) > a:hover {text-decoration: none;}
-body > div:nth-child(4) > footer > p:nth-child(4) > a:hover {text-decoration: none;}
 
 /*Media Queries*/
 @media only screen and (max-width: 600px) {}

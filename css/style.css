@@ -22,8 +22,7 @@ body > div.container.homecopycontainer > p > a:hover {text-decoration: line-thro
 .block {display: block; width: 100%; border: 2px solid #f2c300; background-color: #071122; padding: 8px 28px; font-size: 16px; cursor: pointer; text-align: center; color: #f2c300;}
 body > div.container.homecopycontainer > a:hover {background-color: #ef2275; border-color: #ef2275; color: #071122;}
 #guidelines:hover {text-decoration: none; background-color: #ef2275; border-color: #ef2275; color: #071122;}
-#contentbyyou {max-width: 100%;}
-#contentbyyou > h1 {float: left;}
+body > div.container.homecopycontainer > div {padding-bottom: 2rem;}
 
 /*NAVBAR*/
 * {box-sizing: border-box;}

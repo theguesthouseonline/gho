@@ -60,6 +60,9 @@ body > div.container > div > form > p:nth-child(4) > button {border-color: #ef22
 body > div:nth-child(4) > footer > p:nth-child(2) {text-decoration: none;}
 body > div:nth-child(4) > footer > p:nth-child(3) {text-decoration: none;}
 body > div:nth-child(4) > footer > p:nth-child(4) {text-decoration: none;}
+body > div:nth-child(4) > footer > p:nth-child(2):hover {text-decoration: none;}
+body > div:nth-child(4) > footer > p:nth-child(3):hover {text-decoration: none;}
+body > div:nth-child(4) > footer > p:nth-child(4):hover {text-decoration: none;}
 
 /*Media Queries*/
 @media only screen and (max-width: 600px) {}

@@ -45,7 +45,7 @@ body > div.container.homecopycontainer > a:hover {background-color: #ef2275; bor
 .nav > #nav-check:not(:checked) ~ .nav-links {height: 0px;}
 .nav > #nav-check:checked ~ .nav-links {height: calc(100vh - 50px); overflow-y: auto;}
 
-/*MAILBOX*/
+/* MAILBOX */
 .contact-form{padding: 5rem;}
 body > div.container > div > form > p:nth-child(1) > label {color: #f2c300;}
 body > div.container > div > form > p:nth-child(2) > label {color: #f2c300;}
@@ -56,7 +56,7 @@ body > div.container > div > form > p:nth-child(3) > label > textarea {border-co
 ::placeholder {color: black; opacity: .4;}
 body > div.container > div > form > p:nth-child(4) > button {border-color: #ef2275; background-color: transparent; color: #f2c300;}
 
-/*Footer*/
+/* Footer */
 body > div:nth-child(4) > footer > div {display: table; font-size: .7rem; text-align: center; margin-left: auto; margin-right: auto; padding-bottom: 1rem;}
 body > div:nth-child(4) > footer > div > p:nth-child(2) > a {color: #ef2275; padding-bottom: 2px;}
 body > div:nth-child(4) > footer > div > p:nth-child(3) > a {color: #ef2275; padding-bottom: 2px;}

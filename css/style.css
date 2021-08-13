@@ -23,7 +23,7 @@ body > div.container.homecopycontainer > p > a:hover {text-decoration: line-thro
 body > div.container.homecopycontainer > a:hover {background-color: #ef2275; border-color: #ef2275; color: #071122;}
 #guidelines:hover {text-decoration: none; background-color: #ef2275; border-color: #ef2275; color: #071122;}
 #contentbyyou {max-width: 100%;}
-#contentbyyou > h1 {float: right;}
+#contentbyyou > h1 {float: left;}
 
 /*NAVBAR*/
 * {box-sizing: border-box;}

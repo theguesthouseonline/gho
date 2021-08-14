@@ -45,7 +45,7 @@ body > div.container.homecopycontainer > div {padding-bottom: 1rem;}
 .nav > #nav-check:checked ~ .nav-links {height: calc(100vh - 50px); overflow-y: auto;}
 
 /* MAILBOX */
-#form_mailbox {
+#simple-contact-form {
     left: 50%;
     top: 50%;
     margin-left: -25%;

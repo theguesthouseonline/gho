@@ -45,7 +45,7 @@ body > div.container.homecopycontainer > div {padding-bottom: 1rem;}
 .nav > #nav-check:checked ~ .nav-links {height: calc(100vh - 50px); overflow-y: auto;}
 
 /* MAILBOX */
-body > div.container > form > p:nth-child(2) > label > input[type="text"] {background-color: black;}
+body > div.container > form {background-color: black;}
 
 /* Footer */
 

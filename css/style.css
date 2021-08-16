@@ -45,7 +45,7 @@ body > div.container.homecopycontainer > div {padding-bottom: 1rem;}
 .nav > #nav-check:checked ~ .nav-links {height: calc(100vh - 50px); overflow-y: auto;}
 
 /* MAILBOX */
-body > div.container > div {display: flex; justify-content: center; align-content: center;}
+body > div.container > div {display: list-item; justify-content: center; align-content: center;}
 
 /* Footer */
 

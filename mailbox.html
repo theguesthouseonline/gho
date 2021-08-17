@@ -46,36 +46,11 @@
   </div>
 </div>
 
-<div class="container">
-<h1 class="font-weight-light text-lg-right mt-4 mb-0 scheader">MAILBOX</h1>
-<div class="row">
-    <div class="col">
-
-    </div>
-    <div class="col">
-      <form name="contact" method="POST" data-netlify="true" class="mailbox-container">
-        <p>
-          <label><input type="text" name="name" placeholder="NAME"/></label>
-        </p>
-        <p>
-          <label><input type="email" name="email" placeholder="EMAIL"/></label>
-        </p>
-        <p>
-          <label><textarea name="message" placeholder="MESSAGE"></textarea></label>
-        </p>
-        <p>
-          <label>FILE UPLOAD: <input type="file" name="picture"/></label>
-        </p>
-        <p>
-          <button type="submit">Send</button>
-        </p>
-      </form>
-    </div>
-    <div class="col">
-
-    </div>
-</div>
-</div>
+<form action="upload.php" method="post" enctype="multipart/form-data">
+  Select image to upload:
+  <input type="file" name="fileToUpload" id="fileToUpload">
+  <input type="submit" value="Upload Image" name="submit">
+</form>
 
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
